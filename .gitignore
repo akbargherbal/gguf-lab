@@ -1,0 +1,28 @@
+# Weights (never commit)
+models/
+*.gguf
+
+# llama.cpp checkout / build tree
+llama.cpp-text/
+
+# Local results
+results/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+*.token
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

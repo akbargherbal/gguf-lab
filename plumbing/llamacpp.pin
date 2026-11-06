@@ -1,0 +1,9 @@
+# llama.cpp commit to build against.
+#
+# Empty = track upstream main. Put a commit sha here before publishing a binary
+# you want to reproduce later:
+#   git -C llama.cpp-text rev-parse HEAD
+#
+# Pinned to the build already published in the shared cache (CUDA 13.0,
+# 2026-11-06), so a source rebuild matches the tarball.
+954de248ac6907dd05dc19f0f511ab18f2807a54
